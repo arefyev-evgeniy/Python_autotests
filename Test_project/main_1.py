@@ -1,9 +1,9 @@
 import requests
 
 response = requests.post("https://petstore.swagger.io/v2/pet", json={
-  "id": 531,
+  "id": 1,
   "category": {
-    "id": 926,
+    "id": 12,
     "name": "string"
   },
   "name": "rio",
@@ -22,9 +22,9 @@ print(response.text)
 
 
 response = requests.put("https://petstore.swagger.io/v2/pet", json={
-  "id": 531,
+  "id": 1,
   "category": {
-    "id": 926,
+    "id": 12,
     "name": "string"
   },
   "name": "LOLO",
